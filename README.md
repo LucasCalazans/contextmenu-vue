@@ -13,15 +13,22 @@ npm run dev
 
 # build for production with minification
 npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Usage
+
+``` bash
+# call the context-menu component
+<context-menu></context-menu>
+
+# put some context-menu-item inside, they may have any content, for example, a image and a text
+<context-menu>
+	<context-menu-item>New register</context-menu-item>
+	<context-menu-item>
+		<img src="../assets/new.png">
+		New register
+	</context-menu-item>
+	<context-menu-item>Remove</context-menu-item>
+	<context-menu-item>Edit</context-menu-item>
+</context-menu>
+```
