@@ -17,11 +17,11 @@ npm run build
 
 ## Usage
 
-``` bash
-# call the context-menu component
+``` html
+<!-- call the context-menu component -->
 <context-menu></context-menu>
 
-# put some context-menu-item inside, they may have any content, for example, a image and a text
+<!-- put some context-menu-item inside, they may have any content, for example, a image and a text -->
 <context-menu>
 	<context-menu-item>New register</context-menu-item>
 	<context-menu-item>
